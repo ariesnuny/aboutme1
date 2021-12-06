@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+ background-color: #000018; 
+ color: #e2e2ff; 
+  padding: 1em;
+}
+.primero {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  grid-teplate-rows: 6rem 1fr;
+}
+.logo {
+  margin: 0.5rem;
+  height: 4rem;
+  width: 4rem;
+  grid-row: 1/3;
+  border-radius: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+li{
+   display: inline;
+   text-align: center;
+   margin-right: 1rem;
+}
+a.link:link, a.link:visited {
+  background-color: aquamarine;
+  color: black;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.link:hover, a.link:active {
+  background-color: rgb(86, 157, 214);
+}
+nav {
+  margin-bottom: 2rem;
+}
+
+
+h2 {
+  text-align: center;
+}
+.mimi {
+  font-size: 20px;
+    text-align: justify;
+  margin-left: 2rem;
+}
+.me {
+  float: right;
+  margin-left: 2rem;
+  width: 25%;
+}
+.me img {
+  width: 100%;
+  height: auto;
+}
+.me p {
+  font-size: 1rem;
+  color: #a2a2a2;
+}
+
+.up {
+  margin: 1em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: flex-end;
+}
+.volve {
+  width: 3em;
+  height: 3em;
+}
+
+.Interes {
+  width: 100%;
+    display: flex;
+  justify-content: space-between;
+}
+
+.inte {
+  width: 90%;
+  heigth: auto;
+  border-radius: 50%;
+}
+
+#Contacto {
+  margin: 2em 0.5em;
+}
+
+
+.forma {
+  display: flex;
+  justify-content: space-between;
+}
+.cartitas {
+  width: 30%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.red {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+}
